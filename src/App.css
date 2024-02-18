@@ -540,7 +540,7 @@
 
 .footer_left_div > h4 {
     font-size: 2.1rem;
-    font-family: var(--cash-display);
+    font-family: var(--cash-bold);
     line-height: 2.52rem;
     width: 54%;
 }
@@ -552,7 +552,7 @@
 
 .footer_connect {
     font-size: 2.1rem;
-    font-family: var(--cash-display);
+    font-family: var(--cash-bold);
     line-height: 2.52rem;
     align-self: flex-start;
 }
@@ -560,7 +560,7 @@
 .footer nav li {
     font-size: 1.3rem;
     line-height: 2.6rem;
-    font-family: var(--cash-display);
+    font-family: var(--cash-med);
 }
 
 .footer nav li::after {

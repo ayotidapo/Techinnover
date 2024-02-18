@@ -32,8 +32,16 @@
 }
 
 @font-face {
-  font-family: 'ClashDisplay';
+  font-family: 'ClashDisplay-Medium';
   src: url('./assets/font/ClashDisplay-Medium.otf');
+  font-style: normal;
+  font-display: swap;
+ 
+}
+ 
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('./assets/font/ClashDisplay-Bold.woff2');
   font-style: normal;
   font-display: swap;
  
