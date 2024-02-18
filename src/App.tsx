@@ -113,10 +113,18 @@ const App:React.FC = ()=> {
               <h3>‘‘WE HELP ARTISTS FIND THEIR FANS’’</h3>
               <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced </p>
             </div>
-            <div className="section-4_img__wrapper">
-              <img src={tems1} alt=""/>
-              <img src={tems2} alt=""/>
-              <img src={tems3} alt=""/>
+            <div>
+              <div className="section-4_thumbnail_wrapper"> 
+                <div className='section-4_grid__img_wrapper'>
+                  <img src={tems1} alt=""/>
+                </div>
+                <div className='section-4_grid__img_wrapper'>
+                  <img src={tems2} alt=""/>
+                </div>
+                <div className='section-4_grid__img_wrapper'>
+                  <img src={tems3} alt=""/>
+                </div>
+              </div>
             </div>
           </section>
         </div>
@@ -124,6 +132,15 @@ const App:React.FC = ()=> {
   
     </div>
   );
-}
+}             
 
 export default App;
+
+// display: flex;
+//     position: absolute;
+//     top: 40px;
+//     width: 500px;
+//     height: 160px;
+//     /* border: 1px solid green; */
+//     justify-content: space-between;
+//     background: rgba(0,0,0,.85);
