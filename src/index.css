@@ -1,0 +1,59 @@
+@import url('./font.css');
+
+:root{
+  -webkit-font-smoothing: antialiased;
+  font-size: 10px;
+  --col-yellow: #E1F16B;
+  --light-dark: #1A1D1F;
+  --lighter-dark: #272B30;
+  --text-grey: #6F767E;
+  --sans-regular: 'Product Sans', sans-serif;
+  --sans-bold: 'Product Sans Bold', sans-serif;
+  --durk-bold: 'Druk Wide Bold', sans-serif;
+  --grey: #5da1e112;
+   --black: #000;
+
+}
+
+body {
+  margin:0px;
+
+  font-family: var(--durk-bold);
+  font-size: 1.4rem;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+nav li{
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.hand:hover{
+  cursor: pointer;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left top; 
+}
+
+p{
+  font-family: var(--sans-regular);
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+}
+
+

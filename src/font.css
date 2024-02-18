@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: 'Druk Wide Bold';
+  src: url('./assets/font/Druk-Wide-Bold.ttf');
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/font/ProductSans-Regular.ttf');
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Product Sans Bold';
+  src: url('./assets/font/Product Sans Bold.ttf');
+  font-style: normal;
+  font-display: swap;
+ 
+}
