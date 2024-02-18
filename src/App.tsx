@@ -10,6 +10,11 @@ import tems from './assets/img/tems.png';
 import tems1 from './assets/img/tems1.png';
 import tems2 from './assets/img/tems2.png';
 import tems3 from './assets/img/tems3.png';
+import wizkid from './assets/img/wizkid.png';
+import burna from './assets/img/burna.png';
+import tiwa from './assets/img/tiwa.png';
+import rema from './assets/img/rema.png';
+import man from './assets/img/man.png';
 import './App.css';
 import { ReactComponent as ArrowLeft } from './assets/img/arrowLeft.svg';
 import { ReactComponent as CaretUp } from './assets/img/caret.svg';
@@ -129,6 +134,65 @@ const App:React.FC = ()=> {
           </section>
         </div>
       </section>
+      <section className='section-5'>
+        <h2 className='section-5_h2'>JOIN TOP ARTISTS, BUILD YOUR FANBASE</h2>
+        <p className='section-5_p'>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced</p>
+        <div className="section-5_thumbnail_wrapper">
+          <div className='section-5_thumbnail gradient__class'>
+            <img src={wizkid} alt=""/>
+          </div>
+          <div className='section-5_thumbnail'>
+            <img src={burna} alt=""/>
+          </div>
+          <div className='section-5_thumbnail'>
+            <img src={tiwa} alt=""/>
+          </div>
+           <div className='section-5_thumbnail'>
+            <img src={rema} alt=""/>
+          </div>
+          <div className='section-5_thumbnail gradient__class'>
+            <img src={man} alt=""/>
+          </div>
+        </div>
+      </section>
+      <footer className='footer'>
+        <div className='footer_top_wrapper'>
+          <div className="footer_left_div">
+            <h4>SHORT LINE ABOUT US THREE WORDS HERE</h4>
+            <p>Short sentence here</p>
+          </div>
+          <section style={{display:'flex', width: '32%', justifyContent:'space-between'}}>
+            <h4 className="footer_connect">CONNECT<br/>WITH<br/> US</h4>
+            <nav>
+              <ul>
+                <li>Twitter</li>
+                <li>Discord</li>
+                <li>Instagram</li>
+              </ul>
+            </nav>
+            <nav>
+              <ul>
+                <li>Cookies</li>
+                <li>Licenses</li>
+                <li>Contact</li>
+              </ul>
+
+            </nav>
+            </section>
+        </div>
+        <div className='footer_bottom_wrapper'>
+          <div className='span_group'>
+            <span>2022</span>
+            <span>•</span>
+            <span>PLATFORM</span>
+            <span>2022</span>
+          </div>
+          <div>
+            <span>TERMS &amp; CONDITIONS</span>
+            <span style={{paddingRight: '0'}}>PRIVACY POLICY</span>
+          </div>
+        </div>
+      </footer>
   
     </div>
   );
