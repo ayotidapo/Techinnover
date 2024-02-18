@@ -133,7 +133,7 @@
    margin-left: 0px;
    font-size: 1.7rem;
    color: var(--col-yellow);
-   margin-top: 1rem;
+   margin-top: 2rem;
 
 }
 
@@ -451,10 +451,14 @@
     margin: 0 auto;
     font-size: 3.8rem;
     line-height: 5.9rem;
-    color: #fff;
-    
+    color: #fff;    
     
 }
+
+.section-5_h2 > span {
+    color:  var(--col-yellow);      
+}
+
 
 .section-5_p {
     width: 38%;
@@ -556,6 +560,18 @@
 .footer nav li {
     font-size: 1.3rem;
     line-height: 2.6rem;
+    font-family: var(--cash-display);
+}
+
+.footer nav li::after {
+    content:' ';
+    background-image: url('./assets/img/arrowUp.svg');
+    display: inline-block; 
+    width: 10px; 
+    height: 10px; 
+    background-repeat: no-repeat;
+    margin-left: 0.6rem;
+
 }
 
 .footer_bottom_wrapper {

@@ -135,7 +135,7 @@ const App:React.FC = ()=> {
         </div>
       </section>
       <section className='section-5'>
-        <h2 className='section-5_h2'>JOIN TOP ARTISTS, BUILD YOUR FANBASE</h2>
+        <h2 className='section-5_h2'>JOIN TOP ARTISTS, BUILD YOUR <span>FANBASE</span></h2>
         <p className='section-5_p'>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced</p>
         <div className="section-5_thumbnail_wrapper">
           <div className='section-5_thumbnail gradient__class'>
