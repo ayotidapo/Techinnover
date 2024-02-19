@@ -50,3 +50,36 @@
    margin-top: 0.8rem;
 
 }
+
+
+@media only screen and (max-width: 768px)  {
+     .section-2 {
+        flex-direction: column;
+        padding: 6rem 4rem;
+
+    }
+
+    .section-2__imgbox{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    .section-2_wrapper {
+        padding-left: 0;
+    }
+
+   
+    .section-2__desc h3 {
+        font-size: 3.2rem;
+
+     }
+    .section-2__desc p {
+        width: 100%;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+
+}

@@ -130,11 +130,32 @@
 }
 
 
-@media only screen and (max-width: 749px)  {
-    
 
-    
-    .section-4_thumbnail_wrapper .gradient__class:nth-of-type(n)::after{
-     animation: initial;    
+
+@media only screen and (max-width: 768px)  {
+
+    .section-4_desc__wrapper {
+        padding-left: 3rem;
+        height: auto;
     }
+
+    .section-4_desc__wrapper > h3 {
+        font-size: 3.1rem;
+        line-height: 5.2rem;
+    }
+
+    .section-4_desc__wrapper > p {
+      width: 85%;
+      margin-top: 1rem;
+    }
+
+    .section-4_desc {
+        display: block;
+    }
+    .section-4_desc > div{
+        width: 100%;
+    }
+
+
 }
+

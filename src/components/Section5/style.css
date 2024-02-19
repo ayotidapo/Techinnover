@@ -97,8 +97,36 @@
   100% {transform: translateY(-100%)}
 }
 
+
+
 @media only screen and (max-width: 749px)  { 
+
+
     .section-5_thumbnail:nth-of-type(n){
-     animation: initial;    
+        transform: scale(1.3);
+        animation: initial;    
     }
+}
+
+
+@media only screen and (max-width: 768px)  {
+     .section-5{
+        padding: 4rem;
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    
+    .section-5_h2 {
+        width: 98%;  
+        font-size: 3rem;
+        line-height: 4.9rem;
+    }
+    .section-5_p {
+        width: 98%;      
+    }
+
+    .section-5_thumbnail_wrapper {
+        height: 370px;
+    }
+
 }

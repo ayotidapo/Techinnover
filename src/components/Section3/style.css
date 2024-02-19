@@ -123,3 +123,59 @@
     object-position: 50px -56px;
     
 }
+
+
+@media only screen and (max-width: 768px)  {
+     .section-3 {
+        display: block;
+    }
+    
+
+    .section-3_outer_div {
+      width: 95%;
+      height: 400px;
+      margin: 2rem auto;
+    }
+
+    .below_{
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .section-3_mid_div {
+        padding: 4rem;
+    }
+
+    .section-3_inner_div {
+        padding: 2rem 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .section-3_inner_div .below_ img {
+       object-position: 50px 50%;
+    }
+
+    .section-3_descwrapper {
+     
+        padding-left: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 20px;
+    }
+
+    .section-3__desc h3 {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+        width: 95%;
+    }
+
+    .section-3__desc p {
+        width: 100%;
+        padding-right: 25px;
+    }
+
+    .section-3__descImg_Box {
+        height: auto;
+       
+    }
+
+}

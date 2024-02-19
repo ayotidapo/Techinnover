@@ -148,16 +148,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .gradient__class::after{
    position: absolute;
    content: '';
@@ -171,13 +161,6 @@
    transform: scale(1.01);
     
 }
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 768px)  {
 
@@ -224,187 +207,7 @@
         width: 95%;
         font-size: 1.8rem;
     }
-
-
-
-
-
-    .section-2 {
-        flex-direction: column;
-        padding: 6rem 4rem;
-
-    }
-
-    .section-2__imgbox{
-        width: 80%;
-        height: auto;
-        margin: 0 auto;
-        margin-bottom: 3rem;
-    }
-
-    .section-2_wrapper {
-        padding-left: 0;
-    }
-
-   
-    .section-2__desc h3 {
-        font-size: 3.2rem;
-
-     }
-    .section-2__desc p {
-        width: 100%;
-        font-size: 1.8rem;
-        line-height: 3rem;
-    }
-
-
-
-
-    .section-3 {
-        display: block;
-    }
-    
-
-    .section-3_outer_div {
-      width: 95%;
-      height: 400px;
-      margin: 2rem auto;
-    }
-
-    .below_{
-        width: 320px;
-        margin: 0 auto;
-    }
-
-    .section-3_mid_div {
-        padding: 4rem;
-    }
-
-    .section-3_inner_div {
-        padding: 2rem 0rem;
-        padding-bottom: 0rem;
-    }
-
-    .section-3_inner_div .below_ img {
-       object-position: 50px 50%;
-    }
-
-    .section-3_descwrapper {
-     
-        padding-left: 3rem;
-        padding-top: 5rem;
-        padding-bottom: 20px;
-    }
-
-    .section-3__desc h3 {
-        font-size: 3.2rem;
-        line-height: 4.2rem;
-        width: 95%;
-    }
-
-    .section-3__desc p {
-        width: 100%;
-        padding-right: 25px;
-    }
-
-    .section-3__descImg_Box {
-        height: auto;
-       
-    }
-
-    .section-4_desc__wrapper {
-        padding-left: 3rem;
-        height: auto;
-    }
-
-    .section-4_desc__wrapper > h3 {
-        font-size: 3.1rem;
-        line-height: 5.2rem;
-    }
-
-    .section-4_desc__wrapper > p {
-      width: 85%;
-      margin-top: 1rem;
-    }
-
-    .section-4_desc {
-        display: block;
-    }
-    .section-4_desc > div{
-        width: 100%;
-    }
-
-    
-    .section-5{
-        padding: 4rem;
-        padding-top: 80px;
-        padding-bottom: 0;
-    }
-    
-    .section-5_h2 {
-        width: 98%;  
-        font-size: 3rem;
-        line-height: 4.9rem;
-    }
-    .section-5_p {
-        width: 98%;      
-    }
-
-    .section-5_thumbnail_wrapper {
-        height: 370px;
-    }
-
-
-    .footer {
-        padding-left: 3rem;
-        padding-right: 2rem;
-    }
-
-   .footer_top_wrapper {
-    flex-direction:column;
-    
-   }
-
-   .footer_left_div {
-        padding-bottom: 0.5rem;
-        border-bottom: none;
-   }
-
-   .footer_left_div > h4 {
-        width: 100%;
-   }
-
-   .footer_connect_wrapper {
-        width: auto;
-        margin-top: 4rem;
-   }
-
-   .footer_bottom_wrapper {
-        display: flex;
-        flex-wrap: wrap;
-
-   }
-   .footer_policy {
-        display: inline-block;
-   }
-
-
-    .span_group span:nth-of-type(2) {
-        transform: translateY(-3px);   
-    }
-     .span_group span:nth-of-type(3) {
-        transform: translateY(-3px);   
-    }
 }
-
-
-
-
-
-
-
-
-
 
 
 
