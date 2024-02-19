@@ -1,0 +1,52 @@
+.section-2 {
+    display: flex;
+    background: #EFEFEF;
+    padding: 6rem;
+    padding-top: 8.5rem;
+}
+
+.section-2 > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.section-2__imgbox {
+    width: 84%;    
+}
+
+.section-2__desc {
+    padding-top: 5rem;
+    font-family: var(--sans-regular);
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+  
+}
+
+.section-2_wrapper {
+    padding-left: 5rem;
+}
+
+.section-2__desc p {
+    margin: 2rem 0rem;
+    width: 83.2%;
+
+}
+
+.section-2__desc  h3 {
+    font-family: var(--durk-bold);
+    font-size: 3.8rem;
+    line-height: 5.2rem;
+   
+}
+
+.section-2_trybtn.btn {
+   background: transparent; 
+   padding-left: 0px;
+   margin-left: 0px;
+   font-size: 1.7rem;
+   color: #000;
+   margin-top: 0.8rem;
+
+}

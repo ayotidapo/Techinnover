@@ -1,30 +1,21 @@
 import React, {useState} from 'react';
 import MobileNav from './components/MobileNav'
+import Section2 from './components/Section2'
+import Section3 from './components/Section3'
+import Section4 from './components/Section4'
+import Section5 from './components/Section5'
+import Footer from './components/Footer'
+import Button from './common/Button';
 import bgCheck from './assets/img/Frame10.png';
 import davido from './assets/img/davido.png';
 import darkGirl from './assets/img/darkgirl.png';
-import boys from './assets/img/5boys__.png';
-import sec3Image from './assets/img/sec3Img_.png';
-import rounded from './assets/img/rounded.png';
-import chart from './assets/img/chart.png';
-import tems from './assets/img/tems.png';
-import tems1 from './assets/img/tems1.png';
-import tems2 from './assets/img/tems2.png';
-import tems3 from './assets/img/tems3.png';
-import wizkid from './assets/img/wizkid.png';
-import burna from './assets/img/burna.png';
-import tiwa from './assets/img/tiwa.png';
-import rema from './assets/img/rema.png';
-import man from './assets/img/man.png';
-import './App.css';
 import { ReactComponent as ArrowLeft } from './assets/img/arrowLeft.svg';
 import { ReactComponent as Burger } from './assets/img/burger.svg';
-import { ReactComponent as CaretUp } from './assets/img/caret.svg';
-import Button from './common/Button';
+import './App.css';
 
-const App:React.FC = ()=> {
+const App: React.FC = ()=> {
 
-  const [open , setOpen] = useState<boolean>(false)
+const [open , setOpen] = useState<boolean>(false)
 console.log(open)
   return (
     <div className="App">
@@ -44,8 +35,7 @@ console.log(open)
               <Button>Sign up</Button>
               <Button>Log in</Button>
             </div>
-            <Burger className='burger' onClick={()=> setOpen(true)}/>
-            
+            <Burger className='burger' onClick={()=> setOpen(true)}/>            
           </header>
           <div className='jumbotron_'>
             <div className='jumbotron_left_div'>
@@ -60,144 +50,13 @@ console.log(open)
               <img src={davido} alt='davido'/>            
             </div>
           </div>
-        </section>
-        
+        </section>        
       </div>
-      <section className='section-2'>
-        <div>
-          <div className='section-2__imgbox'>
-            <img src={boys} alt="five-boys-pic"/>
-          </div>
-
-        </div>
-        <div className='section-2__desc' >
-          <div className='section-2_wrapper'>
-            <h3 >YOUR CAREER IS IN YOUR HANDS</h3>
-            <div>
-              <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced with the Webflow template.</p>
-              <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced </p>
-              <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced with the Webflow template.</p>
-            </div>
-            <Button className='section-2_trybtn'><span>Try it now</span> <ArrowLeft style={{marginLeft:'1.7rem'}}/></Button>
-          </div>
-        </div>
-      </section>
-     <section className='section-3'>
-        <div className='section-3__desc'>
-          <div className='section-3_descwrapper'>
-            <h3 >USE YOUR STATS TO MAKE MOVES</h3>
-            <div>
-              <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced with the Webflow template.</p>
-              <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced </p>
-              <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced with the Webflow template.</p>
-            </div>
-            <Button className='section-3_trybtn'><span>Try it now</span> <ArrowLeft style={{marginLeft:'1.7rem'}}/></Button>
-          </div>
-        </div>
-        <div className='section-3_chartdiv'>
-          
-          <div className='section-3_outer_div'>
-            <div className='section-3_mid_div'>
-              <div className='section-3_inner_div'>
-                <span className='inner_span'/>
-                <div className='top_'>
-                  <span>55k <CaretUp style={{transform: 'translate(4px,3px)'}}/></span>
-                  <span style={{transform: 'translateY(-12px)'}}>
-                    <img src={rounded} alt=''/>
-                  </span>
-                </div>
-                <div className="below_">
-                  <img src={chart} alt=""/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>    
-      </section>
-      <section className='section-4'>
-        <img src={tems} alt=""/>
-        <div className="section-4_gradient"> 
-          <section className='section-4_desc'>
-            <div className="section-4_desc__wrapper">
-              <h3>‘‘WE HELP ARTISTS FIND THEIR FANS’’</h3>
-              <p>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced </p>
-            </div>
-            <div>
-              <div className="section-4_thumbnail_wrapper"> 
-                <div className='section-4_grid__img_wrapper'>
-                  <img src={tems1} alt=""/>
-                </div>
-                <div className='section-4_grid__img_wrapper'>
-                  <img src={tems2} alt=""/>
-                </div>
-                <div className='section-4_grid__img_wrapper'>
-                  <img src={tems3} alt=""/>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-      <section className='section-5'>
-        <h2 className='section-5_h2'>JOIN TOP ARTISTS, BUILD YOUR <span>FANBASE</span></h2>
-        <p className='section-5_p'>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced</p>
-        <div className="section-5_thumbnail_wrapper">
-          <div className='section-5_thumbnail gradient__class'>
-            <img src={wizkid} alt=""/>
-          </div>
-          <div className='section-5_thumbnail'>
-            <img src={burna} alt=""/>
-          </div>
-          <div className='section-5_thumbnail'>
-            <img src={tiwa} alt=""/>
-          </div>
-           <div className='section-5_thumbnail'>
-            <img src={rema} alt=""/>
-          </div>
-          <div className='section-5_thumbnail gradient__class'>
-            <img src={man} alt=""/>
-          </div>
-        </div>
-      </section>
-      <footer className='footer'>
-        <div className='footer_top_wrapper'>
-          <div className="footer_left_div">
-            <h4>SHORT LINE ABOUT US THREE WORDS HERE</h4>
-            <p>Short sentence here</p>
-          </div>
-          <section className="footer_connect_wrapper">
-            <h4 className="footer_connect">CONNECT<br/>WITH<br/> US</h4>
-            <nav>
-              <ul>
-                <li>Twitter</li>
-                <li>Discord</li>
-                <li>Instagram</li>
-              </ul>
-            </nav>
-            <nav>
-              <ul>
-                <li>Cookies</li>
-                <li>Licenses</li>
-                <li>Contact</li>
-              </ul>
-
-            </nav>
-            </section>
-        </div>
-        <div className='footer_bottom_wrapper'>
-          <div className='span_group'>
-            <span>2022</span>
-            <span>•</span>
-            <span>PLATFORM</span>
-            <span>2022</span>
-          </div>
-          <div>
-            <span>TERMS &amp; CONDITIONS</span>
-            <span className='footer_policy' >PRIVACY POLICY</span>
-          </div>
-        </div>
-      </footer>
-  
+      <Section2/>
+      <Section3/>
+      <Section4/>
+      <Section5/>
+      <Footer/>
     </div>
   );
 }             

@@ -1,0 +1,102 @@
+
+.section-5 {
+  background: rgba(0,0,0,0.96);
+  text-align: center;
+  padding: 6rem 3rem 14rem 6rem;
+  padding-top: 170px;
+}
+
+.section-5_h2 {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 3.8rem;
+    line-height: 5.9rem;
+    color: #fff;    
+    
+}
+
+.section-5_h2 > span {
+    color:  var(--col-yellow);      
+}
+
+
+.section-5_p {
+    width: 38%;
+    margin: 25px auto;
+    color: var(--text-grey);
+}
+
+.section-5_thumbnail_wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    margin-top: 100px;
+   
+}
+
+.section-5_thumbnail{
+    position: relative;
+}
+
+.section-5_thumbnail:nth-of-type(1){
+    width: 196px;
+    height: 196px;
+    animation: move-vertical 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section-5_thumbnail:nth-of-type(2){
+   width: 220px;
+   height: 220px;
+   align-self: flex-end;
+   animation: move-vertical-inverse 2s linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+.section-5_thumbnail:nth-of-type(3){
+   width: 220px;
+   height: 220px;
+   animation: move-vertical 2s linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   
+}
+
+.section-5_thumbnail:nth-of-type(4){
+    width: 196px;
+    height: 196px;
+    margin-bottom: 3.5rem;
+    align-self: flex-end;
+    animation: move-vertical-inverse 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section-5_thumbnail:nth-of-type(5){
+   width: 220px;
+   height: 220px;
+   animation: move-vertical 2s linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+
+
+
+@keyframes move-vertical {
+  0%   {transform: translateY(0%)}
+  100% {transform: translateY(100%)}
+}
+
+@keyframes move-vertical-inverse {
+  0%   {transform: translateY(0%)}
+  100% {transform: translateY(-100%)}
+}
+
+@media only screen and (max-width: 749px)  { 
+    .section-5_thumbnail:nth-of-type(n){
+     animation: initial;    
+    }
+}

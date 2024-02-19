@@ -1,0 +1,100 @@
+.footer {
+    padding: 0rem 5rem;
+    padding-top: 6rem;
+    background: var(--light-dark);
+    color: #fff;
+}
+
+.footer_top_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+    border-bottom: 0.1px solid #33383F;
+
+}
+
+.footer_left_div > h4 {
+    font-size: 2.1rem;
+    font-family: var(--cash-bold);
+    line-height: 2.52rem;
+    word-spacing: 0.12rem;
+    width: 54%;
+}
+
+.footer_left_div > p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.footer_connect {
+    font-size: 2.1rem;
+    font-family: var(--cash-bold);
+    line-height: 2.52rem;
+    align-self: flex-start;
+}
+
+.footer nav li {
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    font-family: var(--cash-med);
+}
+
+.footer nav li::after {
+    content:' ';
+    background-image: url('../../assets/img/arrowUp.svg');
+    display: inline-block; 
+    width: 10px; 
+    height: 10px; 
+    background-repeat: no-repeat;
+    margin-left: 0.6rem;
+
+}
+
+.footer_bottom_wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: var(--text-grey);
+    font-family: var(--integral-CF);
+    letter-spacing: 2px;
+    padding: 3.1rem 0rem 5rem 0rem;
+}
+
+.footer_bottom_wrapper span{
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 0rem 2rem;
+}
+
+.footer_bottom_wrapper span:nth-of-type(1){
+    padding-left: 0rem;
+}
+
+
+.footer_bottom_wrapper > div{
+    display: flex;
+    align-items: center;
+}
+
+.span_group span:nth-of-type(2){
+   font-size: 2rem; 
+   transform: translateY(-1px);
+   padding: 0rem;
+}
+
+.footer_bottom_wrapper span:nth-of-type(4){
+    margin-left: 10rem;  
+
+}
+
+.footer_bottom_wrapper span:nth-of-type(5){
+    margin-left: 10rem;
+}
+
+.footer_connect_wrapper{
+    display: flex; 
+    width: 32%;
+    justify-content: space-between;
+}
+
+

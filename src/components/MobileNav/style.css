@@ -10,7 +10,7 @@
     opacity: 0;
     visibility: hidden;
     z-index: 200;
-    transition: all 0.2s linear;
+    transition: all 0.1s linear;
     overscroll-behavior: contain;
     overflow-y: scroll;
 }
@@ -19,7 +19,7 @@
     width: 0px; 
     height: 70%;
     overflow: hidden;   
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .overlay .inner_wrapper {

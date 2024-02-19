@@ -8,7 +8,7 @@ interface Props {
   onClick: () => void;
 }
 
-const MobileNav:React.FC<Props> = (props) => {
+const MobileNav: React.FC<Props> = (props) => {
   const {open, onClick: onClickFn} = props;
   console.log({open})
   return (
