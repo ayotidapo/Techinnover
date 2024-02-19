@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
             <span>PLATFORM</span>
             <span>2022</span>
           </div>
-          <div>
+          <div className="footer_lastdiv">
             <span>TERMS &amp; CONDITIONS</span>
             <span className='footer_policy' >PRIVACY POLICY</span>
           </div>
