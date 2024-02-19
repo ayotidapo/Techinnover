@@ -3,13 +3,14 @@ import './button.css'
 
 interface Props{
   children: React.ReactNode;
-  className?: string
+  className?: string;
+  onClick?: () => void;
 }
 
 const Button:React.FC<Props> = (props:Props) => {
-  const {children, className} = props
+  const {children, className, onClick } = props
   return (
-   <button className={`btn ${className || ''}`}>{children}</button>
+   <button className={`btn ${className || ''}`} onClick={onClick}>{children}</button>
   )
 }
 

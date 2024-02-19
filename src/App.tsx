@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
+import MobileNav from './components/MobileNav'
 import bgCheck from './assets/img/Frame10.png';
 import davido from './assets/img/davido.png';
 import darkGirl from './assets/img/darkgirl.png';
-import boys from './assets/img/5boys_.png';
-import sec3Image from './assets/img/sec3Img.png';
+import boys from './assets/img/5boys__.png';
+import sec3Image from './assets/img/sec3Img_.png';
 import rounded from './assets/img/rounded.png';
 import chart from './assets/img/chart.png';
 import tems from './assets/img/tems.png';
@@ -17,12 +18,17 @@ import rema from './assets/img/rema.png';
 import man from './assets/img/man.png';
 import './App.css';
 import { ReactComponent as ArrowLeft } from './assets/img/arrowLeft.svg';
+import { ReactComponent as Burger } from './assets/img/burger.svg';
 import { ReactComponent as CaretUp } from './assets/img/caret.svg';
 import Button from './common/Button';
 
 const App:React.FC = ()=> {
+
+  const [open , setOpen] = useState<boolean>(false)
+console.log(open)
   return (
     <div className="App">
+      <MobileNav onClick={()=>setOpen(false)} open={open}/>
       <div className='top-div'>
         <img src={bgCheck} alt='' className='bg-img'/>
          <section style={{height: '100%'}}>
@@ -38,6 +44,7 @@ const App:React.FC = ()=> {
               <Button>Sign up</Button>
               <Button>Log in</Button>
             </div>
+            <Burger className='burger' onClick={()=> setOpen(true)}/>
             
           </header>
           <div className='jumbotron_'>
@@ -76,10 +83,7 @@ const App:React.FC = ()=> {
         </div>
       </section>
      <section className='section-3'>
-        <div className='section-3__desc' >
-          <div className='section-3__descImg_Box'>
-            <img src={sec3Image} alt=''/>
-          </div>
+        <div className='section-3__desc'>
           <div className='section-3_descwrapper'>
             <h3 >USE YOUR STATS TO MAKE MOVES</h3>
             <div>
@@ -161,7 +165,7 @@ const App:React.FC = ()=> {
             <h4>SHORT LINE ABOUT US THREE WORDS HERE</h4>
             <p>Short sentence here</p>
           </div>
-          <section style={{display:'flex', width: '32%', justifyContent:'space-between'}}>
+          <section className="footer_connect_wrapper">
             <h4 className="footer_connect">CONNECT<br/>WITH<br/> US</h4>
             <nav>
               <ul>
@@ -189,7 +193,7 @@ const App:React.FC = ()=> {
           </div>
           <div>
             <span>TERMS &amp; CONDITIONS</span>
-            <span style={{paddingRight: '0'}}>PRIVACY POLICY</span>
+            <span className='footer_policy' >PRIVACY POLICY</span>
           </div>
         </div>
       </footer>
@@ -199,12 +203,3 @@ const App:React.FC = ()=> {
 }             
 
 export default App;
-
-// display: flex;
-//     position: absolute;
-//     top: 40px;
-//     width: 500px;
-//     height: 160px;
-//     /* border: 1px solid green; */
-//     justify-content: space-between;
-//     background: rgba(0,0,0,.85);

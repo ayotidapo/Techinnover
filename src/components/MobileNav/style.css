@@ -1,0 +1,89 @@
+
+.overlay {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+     top: 0; right: 0; bottom: 0; left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 200;
+    transition: all 0.2s linear;
+    overscroll-behavior: contain;
+    overflow-y: scroll;
+}
+
+.overlay .wrapper {
+    width: 0px; 
+    height: 70%;
+    overflow: hidden;   
+    transition: all 0.3s linear;
+}
+
+.overlay .inner_wrapper {
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+    height: 100%;
+    background: var(--col-yellow);
+  
+}
+
+.overlay li {
+    font-size: 1.6rem;
+    margin: 1.5rem 0rem;
+}
+
+.overlay .header_btn_div {
+   display: block;
+   
+}
+.overlay .header_btn_div .mobilebtn {
+    color: #111;
+    padding: 0.7rem 1rem;
+    background: transparent;
+    border: 0.5px solid #111;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin-bottom: 1rem;
+    margin-left: 0;
+}
+
+.overlay .header_btn_div .mobilebtn:last-child {
+    background: #111;   
+    color: var(--col-yellow);
+    
+}
+
+.btn.closebtn{
+    background: transparent;
+    color: #111;
+    font-size: 3.5rem;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 1.5rem;
+    margin-top: 0;
+}
+
+
+.overlay.open {
+    opacity: 1;
+    visibility: visible;
+  
+}
+
+.overlay.open .wrapper {
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 769px)  {
+    .overlay{
+        display: none;
+    }
+
+}
