@@ -44,6 +44,7 @@
     animation: move-vertical 2s linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    opacity: 0.18;
 }
 
 .section-5_thumbnail:nth-of-type(2){
@@ -80,6 +81,7 @@
    animation: move-vertical 2s linear;
    animation-iteration-count: infinite;
    animation-direction: alternate;
+   opacity: 0.25;
 }
 
 

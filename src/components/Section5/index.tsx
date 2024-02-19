@@ -14,7 +14,7 @@ const Section5: React.FC = () => {
         <h2 className='section-5_h2'>JOIN TOP ARTISTS, BUILD YOUR <span>FANBASE</span></h2>
         <p className='section-5_p'>Figma files can also be downloaded from our store. These files include the latest Figma features and are synced</p>
         <div className="section-5_thumbnail_wrapper">
-          <div className='section-5_thumbnail gradient__class'>
+          <div className='section-5_thumbnail '>
             <img src={wizkid} alt=""/>
           </div>
           <div className='section-5_thumbnail'>
@@ -26,7 +26,7 @@ const Section5: React.FC = () => {
            <div className='section-5_thumbnail'>
             <img src={rema} alt=""/>
           </div>
-          <div className='section-5_thumbnail gradient__class'>
+          <div className='section-5_thumbnail '>
             <img src={man} alt=""/>
           </div>
         </div>
